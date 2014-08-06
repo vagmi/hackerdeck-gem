@@ -1,0 +1,31 @@
+doctype 5
+html lang="en"
+  head
+    meta charset="utf-8"
+      title Hacker Deck 
+      meta content="A framework for easily creating beautiful presentations using HTML" name="description"
+      meta content="Hakim El Hattab" name="author"
+      meta content="yes" name="apple-mobile-web-app-capable"
+      meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"
+      link href="/css/reveal.min.css" rel="stylesheet"
+      link href="/css/theme/default.css" rel="stylesheet"
+      link href="/js/lib/css/zenburn.css" rel="stylesheet"
+  body
+    .reveal
+      .slides== yield
+    script src="/js/lib/js/head.min.js"
+    script src="/js/reveal.min.js"
+    script src="/js/reveal.init.js"
+  a href="https://gist.github.com/"
+    img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" style="position: absolute; top: 0; right: 0; border: 0;"   
+  script src="http://platform.twitter.com/widgets.js" type="text/javascript"
+  javascript:
+    var _gaq = _gaq  [];
+    _gaq.push(['_setAccount', 'UA-23652411-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
